@@ -4,9 +4,9 @@ def find_path(maze, current_position, end_position, visited):
 
     row, col = current_position
 
-    if 0 <= row < len(maze) and 0 <= col < len(maze[0]) and maze[row][col] == OPEN_SPACE and (row, col) not in visited:
+    if 0 <= row < len(maze) and 0 <= col < len(maze[0]) and maze[row][col] == "◌" and (row, col) not in visited:
         visited.add((row, col))
-        maze[row][col] = PATH_MARK
+        maze[row][col] = "◍"
 
         # Check in all four directions (up, down, left, right)
         if (find_path(maze, (row - 1, col), end_position, visited) or
@@ -15,6 +15,6 @@ def find_path(maze, current_position, end_position, visited):
             find_path(maze, (row, col + 1), end_position, visited)):
             return True
 
-        maze[row][col] = OPEN_SPACE  # Backtrack if no path found
-
+        maze[row][col] = "◌"  # Backtrack if no path found
+        return False
     return False
