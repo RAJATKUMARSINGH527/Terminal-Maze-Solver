@@ -1,3 +1,8 @@
+import os
+
+os.system('color')
+from termcolor import colored
+
 def print_maze(maze):
     
     total_rows = total_columns = len(maze)
