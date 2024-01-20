@@ -15,6 +15,6 @@ def find_path(maze, current_position, end_position, visited):
             find_path(maze, (row, col + 1), end_position, visited)):
             return True
 
-        maze[row][col] = "◌"  # Backtrack if no path found
+        maze[row][col] = "◌"  # Backtrack if no path foundd
         
     return False
