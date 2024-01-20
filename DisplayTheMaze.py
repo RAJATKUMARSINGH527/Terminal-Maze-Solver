@@ -1,3 +1,4 @@
+#Display the Maze Function
 import os
 
 os.system('color')
