@@ -1,3 +1,4 @@
+#Solve the Maze Function
 def solve_maze(maze):
     start_position = (0, 0)
     end_position = (len(maze) - 1, len(maze[0]) - 1)
