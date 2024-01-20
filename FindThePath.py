@@ -1,3 +1,4 @@
+#Path Find Function
 def find_path(maze, current_position, end_position, visited):
     if current_position == end_position:
         return True
