@@ -47,7 +47,7 @@ def find_path(maze, current_position, end_position, visited):
             return True
 
         maze[row][col] = "◌"  # Backtrack if no path found
-        # return False
+        
     return False
 
 def solve_maze(maze):
