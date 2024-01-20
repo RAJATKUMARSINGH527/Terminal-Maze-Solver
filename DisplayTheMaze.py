@@ -1,3 +1,4 @@
+#Print Maze Function
 def print_maze(maze):
     
     total_rows = total_columns = len(maze)
