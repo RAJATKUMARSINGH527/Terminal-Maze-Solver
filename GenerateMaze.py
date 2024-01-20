@@ -1,4 +1,3 @@
-GenerateMaze
 #Generate Maze Function
 import random
 
