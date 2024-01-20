@@ -1,3 +1,4 @@
+#Generate Maze Function
 import random
 
 import os
