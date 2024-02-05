@@ -1,4 +1,4 @@
-#Generate The MazeFunction
+#Generate Maze Function
 import random
 
 def generate_maze(n):
