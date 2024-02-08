@@ -1,4 +1,6 @@
 #using BFS 
+
+from collections import deque
 def find_path(maze, start, goal):
     # print(maze)
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
