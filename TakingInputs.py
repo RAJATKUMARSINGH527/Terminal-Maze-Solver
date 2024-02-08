@@ -1,3 +1,8 @@
+import os
+os.system('color')
+from termcolor import colored
+
+
 def main():
     
     print(colored("\nLet's Start the Maze Solver Game","red","on_white"))
