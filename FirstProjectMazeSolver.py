@@ -21,7 +21,7 @@ def print_maze(maze):
             if (row == 0 and col == 0):
                 print(colored(" S ","green","on_black"),end="")
             elif (row == total_rows-1 and col == total_columns-1):
-                print(colored(" E ","green","on_black"),end="" )
+                print(colored(" E ","green","on_black"),end="")
             elif maze[row][col] == "◌":
                 print(colored(" ◌ ","blue","on_white"),end="")
             elif maze[row][col] == "▓":
