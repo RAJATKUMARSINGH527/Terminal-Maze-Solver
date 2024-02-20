@@ -88,7 +88,7 @@ def find_path(maze, start, goal):
 
     return None
 
-# solve maze using DFS
+# solve maze using BFS
 def solve_maze(maze):
     start_position = (0, 0)
     end_position = (len(maze) - 1, len(maze[0]) - 1)
@@ -155,7 +155,7 @@ def main():
             
         elif players_choice == 3:
             
-            print("\nThank you for playing the Maze Solver Game.\n")
+            print(colored("\nThank you for playing the Maze Solver Game.\n","black","on_light_green"))
             break
         
         else:
