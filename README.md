@@ -18,7 +18,9 @@ To use the Terminal-Based Maze Solver, follow these steps:
     
     '''
         git clone https://github.com/RAJATKUMARSINGH527/Terminal-Maze-Solver.git
-    '''    
+    '''
+        
+       
     
 
 2. *Navigate to the Directory*: Move to the directory where the repository was cloned.
@@ -26,7 +28,9 @@ To use the Terminal-Based Maze Solver, follow these steps:
     
     '''
         cd Terminal-Maze-Solver
-    '''    
+    '''
+        
+      
     
 
 3. *Install Dependencies (if any)*: If there are any dependencies required, make sure to install them. This might vary based on the specific implementation.
@@ -36,7 +40,9 @@ To use the Terminal-Based Maze Solver, follow these steps:
     
     '''
         python FirstProjectMazeSolver.py
-    '''    
+    '''
+        
+     
     
 
 5. *Follow Instructions*: Follow the instructions provided by the solver in the terminal to choose the algorithm and visualize the solution.
